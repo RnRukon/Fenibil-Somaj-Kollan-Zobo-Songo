@@ -1,0 +1,81 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mamberCard{
+    height: 200px;
+    background-color: rgb(232, 11, 232);
+    text-align: center;
+    color: white;
+    padding: 25px;
+    border-radius:50%;
+    margin: 25px 20px;
+    width: 250px;
+    transition: 1s;
+    
+
+
+}
+
+
+.mamberCard:hover {
+    transform: scale(1.5);
+    transition: 1s;
+
+}
+    
+
+
+.mamberCardButton{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(22, 162, 255);
+    border-radius: 10px 10px;
+    border-style: none;
+    margin-top: 0px;
+    
+
+}
+
+.mamberCardButton a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.mamberCardButton :hover{
+    transform: scale(1.2);
+}
+
+
+.mamberLogo{
+    border-radius: 50%;
+}
+
+
+.mamberCardBody{
+   
+    padding: 25px;
+   
+    background-color: rgb(0, 64, 148);
+    display: flex;
+    justify-content:center;
+   
+}
+
+.sodossoTitle{
+    
+    background-color: rgb(0, 64, 148);
+    height: 100px;
+    display: flex;
+}
+
+.sodosso{
+    margin: auto;
+    padding-top: 50px;
+    color: salmon;
+    font-size: 50px;
+    border-bottom: 2px solid salmon;
+}

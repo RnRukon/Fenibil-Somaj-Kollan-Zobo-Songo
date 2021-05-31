@@ -1,0 +1,22 @@
+.CommitteeTitle{
+    
+    background-color: rgb(5, 76, 109);
+    height: 100px;
+    display: flex;
+   
+    
+   
+  
+    
+   
+
+}
+.komiti{
+    margin: auto;
+    padding-top: 50px;
+    color: salmon;
+    font-size: 50px;
+    border-bottom: 2px solid salmon;
+    
+
+}

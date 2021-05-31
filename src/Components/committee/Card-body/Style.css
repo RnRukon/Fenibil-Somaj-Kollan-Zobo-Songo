@@ -1,0 +1,68 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Card{
+    height: 250px;
+    background-color: rgb(11, 107, 232);
+    text-align: center;
+    color: white;
+    padding: 25px;
+    border-radius: 50% 20% 50%;
+    margin: 25px 20px;
+    width: 330px;
+    transition: 1s;
+    box-shadow: 15px 13px 40px rgba(255, 255, 252, 0.12), 0px 8px 32px -8px hsla(241, 100%, 14%, 0.14), 0px -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+
+
+}
+
+
+.Card:hover {
+    transform: scale(1.5);
+    box-shadow: 15px 13px 40px -5px rgba(13, 0, 70, 0.12), 0px 8px 32px -8px hsla(241, 100%, 14%, 0.14), 0px -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+    transition: 1s;
+
+}
+    
+
+
+.button{
+    height: 30px;
+    width: 100px;
+    background-color: fuchsia;
+    border-radius: 0px 10px 0px;
+    border-style: none;
+    margin-top: 0px;
+    
+
+}
+
+.button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.button :hover{
+    transform: scale(1.2);
+}
+
+.CardBody{
+   
+    padding: 25px;
+   
+    background-color: rgb(5, 76, 109);
+    display: flex;
+    justify-content:center;
+   
+}
+.cardTitle{
+    font-size: 30px;
+}
+.Logo{
+    border-radius: 50%;
+}
+

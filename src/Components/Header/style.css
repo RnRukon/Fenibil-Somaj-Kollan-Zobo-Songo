@@ -1,0 +1,22 @@
+.Header{
+    height: 50em;
+    width: 100%;
+    background-image: url(./fenibil.jpg);
+    display: flex;
+    align-items: center;
+}
+.header-content{
+    
+    margin: auto;
+
+}
+.header-content h1{
+    font-size: 5em;
+    color: rgb(242, 0, 0);
+    text-shadow: 5px 3px 5px rgb(15, 201, 68);
+}
+.header-content address{
+    font-size: 2em;
+    color: rgb(255, 217, 0);
+    text-shadow: 5px 3px 5px rgb(20, 46, 27);
+}

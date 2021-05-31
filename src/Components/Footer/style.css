@@ -1,0 +1,13 @@
+.FooterAddress{
+    display: flex;
+    text-align: center;
+    height: 300px;
+    background-color: chocolate;
+
+}
+.FooterAddress-h3{
+    margin: auto;
+}
+.footerLogo{
+    border-radius: 50%;
+}

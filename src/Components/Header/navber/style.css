@@ -1,0 +1,32 @@
+.Navber{
+    background-color:rgb(10, 94, 112) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.Menu{
+    display: flex;
+}
+.Menu li{
+   margin: 0px 10px;
+    list-style: none;
+  
+}
+
+
+.Menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(211, 251, 255);
+    padding: 20px;
+   
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+  
+}
+.Menu li a:hover{
+    background-color: rgb(9, 116, 140);
+   
+}
